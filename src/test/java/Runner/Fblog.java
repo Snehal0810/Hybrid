@@ -22,6 +22,7 @@ public class Fblog
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com/");
+		System.out.println("hi");
 	}
 
 }
